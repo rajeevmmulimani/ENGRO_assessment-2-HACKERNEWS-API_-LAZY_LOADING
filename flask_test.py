@@ -141,6 +141,6 @@ finally:
         url_dep10 = str(*url_10_temp)[0:]
                         
         
-        return render_template('ENGROW.html', title1=title_dep1, url1=url_dep1)
+        return render_template('ENGROW.html', title1=title_dep1, url1=url_dep1, title2=title_dep2, url2=url_dep2, title3=title_dep3, url3=url_dep3, title4=title_dep4, url4=url_dep4, title5=title_dep5, url5=url_dep5, title6=title_dep6, url6=url_dep6, title7=title_dep7, url7=url_dep7, title8=title_dep8, url8=url_dep8, title9=title_dep9, url9=url_dep9, title10=title_dep10, url10=url_dep10)
 
 flask_test.run()
